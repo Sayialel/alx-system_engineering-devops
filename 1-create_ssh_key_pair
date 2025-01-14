@@ -1,0 +1,9 @@
+#!/bin/bash
+cat > ~/.ssh/config << EOF
+Host alx
+    HostName 100.25.15.0
+    User ubuntu
+    IdentityFile ~/.ssh/school
+EOF
+chmod 600 ~/.ssh/config
+
